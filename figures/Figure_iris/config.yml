@@ -1,7 +1,7 @@
 ---
 version: 2
 multicolumn: false
-web-width: 500px
+web-width: 800
 align: center
 float: h!
 grid:
@@ -17,3 +17,4 @@ grid:
     - 1
     - 1
     url: "/users/244977/articles/324602/master/file/figures/Figure_iris/Figure_iris.png"
+    folder_url: "/users/244977/articles/324602/master/folder/figures/Figure_iris"
