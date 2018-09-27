@@ -9,8 +9,7 @@ tab <- iris %>%
               `average PL` = mean(Sepal.Length),
               `SD PL` = sd(Sepal.Length),
               `min PL` = sd(Sepal.Length)) %>% 
-    kable(caption = "This is a summary table of the famous iris data set. Now lets test whether this is really working
-        ", format = "latex", booktabs = T) %>% 
+    kable(caption = "This is a summary table of the famous iris data set.", format = "latex", booktabs = T) %>% 
   kable_styling() %>%
   footnote(general = "\\\\href{https://github.com/TobiasRoth/RtoAuthorea/blob/master/tables/latex_table/latex_table.R}{R-code}", 
            footnote_as_chunk = T, escape = FALSE, general_title = "")
