@@ -5,4 +5,4 @@ text/existingrep.html
 markdown/gitmerge.md
 text/adding_content.html
 tables/latex_table/latex_table.tex
-notes.html
+text/notes.html
