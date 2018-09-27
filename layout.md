@@ -5,6 +5,6 @@ text/existingrep.html
 markdown/gitmerge.md
 text/adding_content.html
 figures/Figure_iris
-6r0jfma0gh8.html
+text/addingLatexTable.html
 tables/latex_table/latex_table.tex
 text/notes.html

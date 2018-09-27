@@ -2,21 +2,9 @@
 library(tidyverse)
 
 # Create Figure
-png("Figure_iris.png", width = 800, height = 400)
+png("figures/Figure_iris/Figure_iris.png", width = 800, height = 400)
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, col = Species)) +
   geom_point() +
-  geom_smooth()
+  geom_smooth() +
+  labs(x = "Length of sepal", y = "Width of sepal")
 dev.off()
-
-# Include Figure into manuscript
-au_add_figure("Figure1.svg")
-
-
-
-
-
-
-
-
-
-
